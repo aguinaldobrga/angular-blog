@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 480px) {
+    .container-small-content {
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .small-card-photo > img {
+        margin-right: 2rem;
+    
+    }
+    
+  }
+
+  
+

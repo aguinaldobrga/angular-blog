@@ -1,4 +1,5 @@
 .menu-title-container {
+    
     color: white;
   
 }
@@ -17,4 +18,12 @@
 .menu-title-container hr {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
+}
+
+
+@media screen and (max-width: 300px) {
+  .menu-title-container h1 {
+    font-size: 1rem;
+    color: rgb(148, 9, 9);
+  }
 }

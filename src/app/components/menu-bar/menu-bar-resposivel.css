@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+  .container-menu-bar > ul > li {
+    font-size: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
+
+  
+}

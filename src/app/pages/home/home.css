@@ -6,8 +6,21 @@
 
 }
 
+
 header {
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .article-container {
+        margin-top: 1rem;
+        padding: 2rem;
+        display: grid;
+        gap: 5rem;
+    }
+
+  
 }

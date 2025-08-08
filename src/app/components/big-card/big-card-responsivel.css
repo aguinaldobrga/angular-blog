@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    
+    .big-card-container {
+        display: grid;
+    }
+
+    .big-card-descricao > p {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+  
+}

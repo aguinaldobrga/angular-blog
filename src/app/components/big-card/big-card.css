@@ -15,8 +15,8 @@
 .big-card-photo img {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .big-card-title h1 {

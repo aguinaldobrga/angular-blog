@@ -1,6 +1,5 @@
 .container-small-card {
-    width: 100%;
-   
+    width: 50rem;
     padding: 1rem;
     gap: 2rem;
 }
@@ -11,7 +10,7 @@
 }
 
 .small-card-photo > img {
-    max-width: 100%;
+    max-width: 20rem;
     height: 10rem;
     margin-right: 2rem;
     
@@ -19,6 +18,7 @@
 
 .small-card-title {
     display: flex;
+    margin-left: 2rem;
     justify-content: center;
     align-items: center;
 }
