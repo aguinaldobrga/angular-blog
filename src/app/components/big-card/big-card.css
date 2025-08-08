@@ -1,0 +1,40 @@
+.big-card-container {
+    width: 40rem;
+    height: 40.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+.big-card-photo img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.big-card-title h1 {
+    font-size: 2.3rem;
+    
+}
+
+.big-card-title h1 a {
+    color: white;
+    
+}
+
+
+.big-card-descricao p {
+    font-size: 1.3rem;
+    color: #e4e4e4;
+    text-align: left;
+}
+
+
+
