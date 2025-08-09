@@ -1,8 +1,10 @@
 import { Component, Input } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-small-card',
   standalone: true,
+  imports:[RouterModule],
   templateUrl: './small-card.html',
   styleUrls: [
     './small-card.css', 
@@ -15,4 +17,8 @@ export class SmallCardComponent {
     photoCover: string ='';
     @Input()
     cardTitle: string = '';
+
+    @Input()
+    id: string = '0';
+
 }
